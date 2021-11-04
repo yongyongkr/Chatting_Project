@@ -1,6 +1,6 @@
 # Chatting 구현하기
 
-## Project A
+## ![Project A](https://github.com/yongyongkr/Chatting_Project/tree/master/src/Project_A)
 
 ### Description
 
