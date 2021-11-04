@@ -34,3 +34,6 @@
 - 영어를 사용할 경우
   - `inMsg.contains("종료")` 대신 `inMsg.equalsIgnoreCase("bye")` 사용
 - 추가적으로 utf-8 인코딩을 해줄 수도 있을 것으로 보임
+
+
+[더 자세히 알아보기](https://velog.io/@hahahaa8642/%EC%B1%84%ED%8C%85-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-Socket-%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%BD%98%EC%86%94-%EC%B1%84%ED%8C%85-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)
