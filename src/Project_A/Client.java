@@ -24,10 +24,12 @@ public class Client {
             out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 
             while (true) {
-                System.out.println("메시지를 입력하세요 : ");
+                System.out.print("메시지를 입력하세요 : ");
                 String outMsg = sc.nextLine();
 
                 if (outMsg.contains("종료")) {
+                    out.write("연결이 종료되었습니다");
+                    out.flush();
                     System.out.println("연결이 종료되었습니다");
                     break;
                 }
@@ -46,7 +48,6 @@ public class Client {
                 out.close();
                 in.close();
                 socket.close();
-                serverSocket.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
