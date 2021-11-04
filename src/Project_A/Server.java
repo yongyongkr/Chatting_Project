@@ -21,10 +21,10 @@ public class Server {
 
         try {
             serverSocket = new ServerSocket(12000);
-            System.out.println("연결 대기");
+            System.out.println("연결 대기 중입니다");
 
             socket = serverSocket.accept();
-            System.out.println("연결 완료");
+            System.out.println("연결이 완료되었습니다");
 
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
