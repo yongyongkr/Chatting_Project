@@ -32,6 +32,7 @@ public class Server {
             while (true) {
                 String inMsg = in.readLine();
                 if (inMsg.contains("종료")) {
+                    System.out.println("상대방 : " + inMsg);
                     System.out.println("연결이 종료되었습니다");
                     break;
                 }
